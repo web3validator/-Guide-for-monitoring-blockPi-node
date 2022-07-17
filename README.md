@@ -71,7 +71,7 @@ sudo docker ps
 # Встановлюємо node-exporter на сервер де знаходться BlockPI
 Встановлюємо node-exporter через таку команду
 ```
-wget https://raw.githubusercontent.com/MaxMavaIll/BlockPI_monitoring/main/node-exporter.sh  && chmod +x node-exporter.sh && bash node-exporter.sh
+wget https://raw.githubusercontent.com/cybernekit/-Guide-for-monitoring-blockPi-node/main/node-exporter.sh  && chmod +x node-exporter.sh && bash node-exporter.sh
 
 ```
 
@@ -81,8 +81,7 @@ wget https://raw.githubusercontent.com/MaxMavaIll/BlockPI_monitoring/main/node-e
 ```
 cd /var/lib/docker/volumes/monitoring_prom-configs/_data
 rm prometheus.yml
-https://github.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/
-wget https://raw.githubusercontent.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/prometheus.yml
+wget https://github.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/prometheus.yml
 
 ```
 
