@@ -81,7 +81,8 @@ wget https://raw.githubusercontent.com/MaxMavaIll/BlockPI_monitoring/main/node-e
 ```
 cd /var/lib/docker/volumes/monitoring_prom-configs/_data
 rm prometheus.yml
-wget https://raw.githubusercontent.com/MaxMavaIll/BlockPI_monitoring/main/prometheus.yml
+https://github.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/
+wget https://raw.githubusercontent.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/prometheus.yml
 
 ```
 
@@ -149,7 +150,7 @@ http://<IP_address>:3000
 Завантажуємо таблицю від розробників BlockPI
 і вставляємо її в поле `Import via panel json`
 
-* [HyperNode](https://github.com/MaxMavaIll/BlockPI_monitoring/blob/main/HyperNode.json)
+* [HyperNode](https://github.com/cybernekit/-Guide-for-monitoring-blockPi-node/blob/main/HyperNode.json)
 
 Самого початку у вас виникне помилка.
 
