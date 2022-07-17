@@ -1,7 +1,4 @@
-# Guide-for-monitoring-blockPi-node
-
-
-![Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179419628-7525b62a-1c7c-4729-a298-cd53b17e3ad5.png)
+# Guide-for-monitoring-blockPi-node ![Знімок екрану з 2022-07-17 08-56-01](https://user-images.githubusercontent.com/102728347/179419628-7525b62a-1c7c-4729-a298-cd53b17e3ad5.png)
 
 
 # Встановлюємо grafana і prometheus на сервер де не працює BlockPI.
