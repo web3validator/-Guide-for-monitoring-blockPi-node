@@ -1,0 +1,52 @@
+# my global config
+global:
+  scrape_interval: 15s # Set the scrape interval to every 15 seconds. Default is every 1 minute.
+  evaluation_interval: 15s # Evaluate rules every 15 seconds. The default is every 1 minute.
+  # scrape_timeout is set to the global default (10s).
+
+# Alertmanager configuration
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: [localhost:9093]
+          # - alertmanager:9093
+
+# Load rules once and periodically evaluate them according to the global 'evaluation_interval'.
+rule_files:
+  # - "first_rules.yml"
+  # - "second_rules.yml"
+
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself.
+scrape_configs:
+  - job_name: 'prometheus'
+    scrape_interval: 5s
+    static_configs:
+      - targets: ['localhost:9090']
+  - job_name: 'node'
+    scrape_interval: 10s
+    static_configs:
+      - targets: ['your_address:9100']
+        labels:
+          class: system
+          name: klaytn
+          region: Germany
+          service_provider: Hetzner
+  - job_name: 'hypernode'
+    scrape_interval: 10s
+    static_configs:
+      - targets: ['your_address:8899']
+        labels:
+          class: HyperNode
+          name: hypernode
+          region: Germany
+          service_provider: Hetzner
+  - job_name: 'klaytn'
+    scrape_interval: 10s
+    static_configs:
+      - targets: ['your_address:31275']
+        labels:
+          class: klaytn-rpc-node
+          name: klaytn-rpc-node-1
+          region: Germany
+          service_provider: Hetzner
