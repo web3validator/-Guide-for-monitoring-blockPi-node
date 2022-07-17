@@ -113,7 +113,7 @@ http://<your_address_grafana>:9090
 
 Якщо у вас такий вигляд то все підключилося і правильно працює 
 
-![Screenshot from 2022-07-16 15-36-24](https://user-images.githubusercontent.com/102728347/179355199-eed91018-6d6c-49bc-a3e3-463b04f64932.png)
+![Screenshot from 2022-07-17 21-35-04](https://user-images.githubusercontent.com/59205554/179420112-7eab3fb3-e3fb-4bc7-9afb-b3537a66414f.png)
 
 # Налаштування Grafana
 
