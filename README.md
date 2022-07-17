@@ -109,7 +109,7 @@ http://<your_address_grafana>:9090
 
 Натискамо Status -> Targets
 
-![tearTmY](https://user-images.githubusercontent.com/102728347/179355096-409b3161-6675-43d9-b543-80b9ecafb370.jpeg)
+![Screenshot from 2022-07-17 21-41-11](https://user-images.githubusercontent.com/59205554/179420255-daccece1-7331-46db-8c78-23782db8740b.png)
 
 Якщо у вас такий вигляд то все підключилося і правильно працює 
 
