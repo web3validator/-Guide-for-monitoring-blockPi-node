@@ -125,16 +125,12 @@ http://<IP_address>:3000
 ```
 Ми побачимо наступне(Звичайно якщо все правильно встановилося)
 
-![ngazd4U](https://user-images.githubusercontent.com/102728347/179351515-3004bcf9-edff-4445-8658-416eadf7e41d.jpeg)
+![Screenshot from 2022-07-17 21-57-12](https://user-images.githubusercontent.com/59205554/179420753-30f0d6cb-8ce1-4e19-b8a1-936aaa8ae384.png)
 
 Позамовчуванню user -> `admin`; password -> `admin`.
 Далі ви вам запропонує встановити свій пароль, grafana запише його в базу даних і з наступного разу, щоб зайти на свою grafana потрібно буде вести ці дані.
 
-Коли зайшли в графану натискаємо шистиграник -> ![Screenshot from 2022-07-16 16-27-06](https://user-images.githubusercontent.com/102728347/179356902-73f0009d-36bd-49f7-b012-3516869bebdd.png) 
-
-add data source -> ![Screenshot from 2022-07-16 16-28-33](https://user-images.githubusercontent.com/102728347/179356942-de8fa026-0365-43a6-9a3f-6d52c37d9450.png)
-
-prometheus
+Коли зайшли в графану натискаємо шистиграник -> add data source -> prometheus
 ![Screenshot from 2022-07-16 16-44-54](https://user-images.githubusercontent.com/102728347/179357543-57fea3cc-e144-47c3-878a-d5f11790accf.png)
 
 У строку url вставляємо такий адрес http://prometheus:9090
